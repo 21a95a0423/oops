@@ -1,0 +1,13 @@
+class student:
+    #this is constracture
+    def __init__(self,name,age,college):
+        self.name=name#private objects
+        self.age=age
+        self.college=college
+    def display(self) :
+        print(self.age)
+    def show(self):
+        self
+s1=student("ram",20,"aditya") 
+s2=student("komal",20,"aditya")
+s1.display()
